@@ -1,0 +1,65 @@
+{
+  "branding": {
+    "header_hide_title": false,
+    "footer_hide_title": false,
+    "footer_login": false
+  },
+  "detail_pages": {
+    "models": {
+      "people": {
+        "related_manifest": {
+          "model": "items",
+          "relationship": "75712edb-4d6d-4a62-b957-134fb84330dc"
+        }
+      }
+    }
+  },
+  "content": {
+    "collections": [
+    ]
+  },
+  "core_data": {
+    "url": "https://app.coredata.cloud",
+    "project_ids": [
+      "94"
+    ]
+  },
+  "i18n": {
+    "default_locale": "en",
+    "locales": [
+      "en", "es"
+    ]
+  },
+  "layers": [
+    {
+      "name": "Maptiler DataViz Style",
+      "layer_type": "vector",
+      "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB"
+    }
+  ],
+  "search": [
+    {
+      "name": "people",
+      "route": "/people",
+      "result_card": {
+        "title": "name"
+      },
+      "type": "grid",
+      "typesense": {
+        "host": "nyd7u612fqepr0ikp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "vaSJJrj8hm0cm7qYQSwGnEWTf54kFguT",
+        "index_name": "people",
+        "query_by": "name",
+        "default_sort": "name",
+        "facets": {
+          "exclude": [
+            "owner_project.name_facet",
+            "all_projects.name_facet"
+          ]
+        }
+      }
+    }
+  ]
+}
