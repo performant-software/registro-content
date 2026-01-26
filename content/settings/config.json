@@ -57,7 +57,7 @@
         "api_key": "vaSJJrj8hm0cm7qYQSwGnEWTf54kFguT",
         "index_name": "people",
         "query_by": "name",
-        "default_sort": "name:asc",
+        "default_sort": "name",
         "facets": {
           "include": [
             "1cbdbf79-5d27-4fc3-bd70-6bad08089dd3.names_facet",
