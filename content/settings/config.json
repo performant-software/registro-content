@@ -42,7 +42,12 @@
       "name": "people",
       "route": "/people",
       "result_card": {
-        "title": "name"
+        "title": "name",
+        "attributes": [
+          {
+            "name": "66933420-a06a-49c4-93e1-62a25704c2b6"
+          }
+        ]
       },
       "type": "grid",
       "typesense": {
@@ -52,11 +57,16 @@
         "api_key": "vaSJJrj8hm0cm7qYQSwGnEWTf54kFguT",
         "index_name": "people",
         "query_by": "name",
-        "default_sort": "name",
+        "default_sort": "name:asc",
         "facets": {
-          "exclude": [
-            "owner_project.name_facet",
-            "all_projects.name_facet"
+          "include": [
+            "1cbdbf79-5d27-4fc3-bd70-6bad08089dd3.names_facet",
+            "a7109030-87a6-4d9c-a34b-ead034b7a46d.names_facet",
+            "ec27dfa3-a96d-439a-8170-f91c54dea313.names_facet",
+            "fefe7f0a-caed-4207-ae85-af6f4f1d8196.names_facet",
+            "53beb73f-d00a-4696-a2f2-b9ae7eea8996",
+            "66933420-a06a-49c4-93e1-62a25704c2b6",
+            "ad09c593-addb-4499-8013-e4c061207ba9"
           ]
         }
       }
