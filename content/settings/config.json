@@ -15,8 +15,7 @@
     }
   },
   "content": {
-    "collections": [
-    ]
+    "collections": []
   },
   "core_data": {
     "url": "https://app.coredata.cloud",
@@ -27,7 +26,8 @@
   "i18n": {
     "default_locale": "en",
     "locales": [
-      "en", "es"
+      "en",
+      "es"
     ]
   },
   "layers": [
@@ -39,7 +39,7 @@
   ],
   "search": [
     {
-      "name": "people",
+      "name": "People",
       "route": "/people",
       "result_card": {
         "title": "name",
@@ -61,7 +61,6 @@
           }
         ]
       },
-      "type": "grid",
       "typesense": {
         "host": "nyd7u612fqepr0ikp-1.a1.typesense.net",
         "port": 443,
