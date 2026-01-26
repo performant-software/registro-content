@@ -1,5 +1,6 @@
 {
-  "t_posts": "Blog",
   "t_index_places": "Places",
-  "t_index_events": "Events"
+  "t_index_events": "Events",
+  "t_posts": "Blog",
+  "t_index_people": "People"
 }
