@@ -41,6 +41,7 @@
     {
       "name": "People",
       "route": "/people",
+      "type": "grid",
       "result_card": {
         "title": "name",
         "attributes": [
