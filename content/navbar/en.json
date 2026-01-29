@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "label": "Home",
+      "href": "/en",
+      "_template": "URL"
+    },
+    {
+      "label": "People",
+      "href": "/en/search/people/",
+      "_template": "URL"
+    },
+    {
+      "label": "Pages",
+      "options": [
+        {"label": "About", "href": "/en/pages/About"},
+        {"label": "Contact", "href": "/en/pages/Contact"},
+        {"label": "Resources", "href": "/en/pages/Resources"},
+        {"label": "Team", "href": "/en/pages/Team"}
+      ],
+      "_template": "Dropdown"
+    },
+    {
+      "label": "Paths",
+      "href": "/en/paths",
+      "_template": "URL"
+    },
+    {
+      "label": "Posts",
+      "href": "/en/posts",
+      "_template": "URL"
+    },
+    {
+      "label": "Taller Entre Aguas",
+      "href": "https://www.tallerentreaguas.org/",
+      "_template": "URL"
+    }
+  ]
+}
