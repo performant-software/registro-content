@@ -39,7 +39,7 @@
   ],
   "search": [
     {
-      "name": "People",
+      "name": "people",
       "route": "/people",
       "type": "grid",
       "result_card": {
