@@ -13,22 +13,24 @@
     {
       "label": "Pages",
       "options": [
-        {"label": "About", "href": "/en/pages/About"},
-        {"label": "Contact", "href": "/en/pages/Contact"},
-        {"label": "Resources", "href": "/en/pages/Resources"},
-        {"label": "Team", "href": "/en/pages/Team"}
+        {
+          "label": "About",
+          "href": "/en/pages/About"
+        },
+        {
+          "label": "Contact",
+          "href": "/en/pages/Contact"
+        },
+        {
+          "label": "Resources",
+          "href": "/en/pages/Resources"
+        },
+        {
+          "label": "Team",
+          "href": "/en/pages/Team"
+        }
       ],
       "_template": "Dropdown"
-    },
-    {
-      "label": "Paths",
-      "href": "/en/paths",
-      "_template": "URL"
-    },
-    {
-      "label": "Posts",
-      "href": "/en/posts",
-      "_template": "URL"
     },
     {
       "label": "Taller Entre Aguas",
