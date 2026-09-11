@@ -15,7 +15,8 @@
     }
   },
   "content": {
-    "collections": []
+    "collections": [],
+    "localize_pages": true
   },
   "core_data": {
     "url": "https://fairdata.performant.studio",
