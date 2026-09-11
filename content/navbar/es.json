@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "label": "Inicio",
+      "href": "/es",
+      "_template": "URL"
+    },
+    {
+      "label": "Personas",
+      "href": "/es/search/people/",
+      "_template": "URL"
+    },
+    {
+      "label": "Páginas",
+      "options": [
+        {
+          "label": "Acerca de",
+          "href": "/es/pages/About"
+        },
+        {
+          "label": "Contacto",
+          "href": "/es/pages/Contact"
+        },
+        {
+          "label": "Recursos",
+          "href": "/es/pages/Resources"
+        },
+        {
+          "label": "Equipo",
+          "href": "/es/pages/Team"
+        }
+      ],
+      "_template": "Dropdown"
+    },
+    {
+      "label": "Taller Entre Aguas",
+      "href": "https://www.tallerentreaguas.org/",
+      "_template": "URL"
+    }
+  ]
+}
